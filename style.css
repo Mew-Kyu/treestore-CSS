@@ -1,0 +1,188 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+.wrapper {
+    background-color: white;
+    padding: 30px 70px;
+}
+
+ul {
+    text-align: center;
+}
+#content {
+    overflow: auto;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+}
+
+.column1 {
+    float: left;
+}
+.column2 {
+    margin: 0% 3%;
+}
+.column3 {
+    float: right;
+    margin: 0%;
+}
+
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+.banner, .article {
+    background-color: #efefef;
+    height: 10em;
+    margin-bottom: 1em;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-icon {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+}
+
+.products, .contact {
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.home {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    height: 512px;
+    background-color: #C1DCDC;
+    border-radius: 24px;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 0;
+}
+
+.tree-banner {
+    width: 466px;
+}
+
+.banner-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banner-info {
+    width: 512px;
+    height: 227px;
+}
+
+.search-box {
+    width: 449px;
+    height: 64px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 5px;
+}
+  
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.search-box input::placeholder {
+    color: rgba(30, 30, 30, 0.5);
+}
+  
+.search-box button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 10px;
+    width: 48px;
+    height: 48px;
+    background-color: #C1DCDC;
+    border-radius: 12px;
+}
+
+.allcard {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.trees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    min-width: 256px;
+    padding-left: 120px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-bestsell {
+    width: 256px;
+    height: 189px;
+    padding-bottom: 20px;
+}
+
+.name-tree {
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.price {
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+}

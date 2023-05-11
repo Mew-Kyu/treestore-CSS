@@ -16,7 +16,7 @@ ul {
     text-align: center;
 }
 #content {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .column1, .column2, .column3 {
@@ -185,4 +185,105 @@ a {
 .price {
     font-size: 18px;
     color: rgba(30, 30, 30, 0.5);
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.allservice {
+    display: flex;
+}
+
+.service {
+    padding: 30px 100px;
+}
+
+.title-about {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1E1E1E;
+    margin-bottom: 0;
+}
+
+.info-about {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+
+}
+
+.title-service {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.categories {
+    background-color: white;
+    text-align: center;
+}
+
+.cate-bg {
+    width: 100%;
+    height: 841px;
+    background-color: #C1DCDC;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cate-card {
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-cate {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1E1E1E;
+    margin-bottom: 0;
+}
+
+.cate-info {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+    padding-bottom: 60px;
+}
+
+.mini {
+    margin: 0;
+}
+
+.cate-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.cardup {
+    transform: translateY(-35px);
+}
+
+.carddown {
+    transform: translateY(35px);
+}
+
+.allreview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-review {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.review-box {
+    width: 800px;
+    height: 330px;
+    background: #C1DCDC;
+    border-radius: 12px;
 }

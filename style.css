@@ -320,6 +320,7 @@ a {
 }
 
 .name-cus {
+    width: 80px;
     line-height: 0;
     font-weight: 700;
     font-size: auto;
@@ -494,9 +495,6 @@ a {
     }
     .customer img {
         display: none;
-    }
-    .name-cus {
-        font-size: 15px;
     }
     .footer-left {
         margin: 30px;

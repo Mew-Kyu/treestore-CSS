@@ -142,7 +142,6 @@ a {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0 10px;
     width: 48px;
     height: 48px;
     background-color: #C1DCDC;
@@ -345,10 +344,25 @@ a {
     color: #1E1E1E;
 }
 
-footer {
+.footer {
     width: 100%;
     height: 423px;
-    padding: 48px 98px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.allright {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
 }
 
 .footer-title {
@@ -371,4 +385,26 @@ footer {
 .social {
     display: flex;
     justify-content: space-between;
+}
+
+.footer-right {
+    padding-left: 30%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1E1E1E;
+    line-height: 27px;
+}
+
+.nav-child {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+    line-height: 27px;
 }
